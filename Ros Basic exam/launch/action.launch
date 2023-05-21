@@ -1,0 +1,8 @@
+<launch>
+    <node 
+        pkg ="basics_exam"
+        type="exam_action_server.py"
+        name="action_program" 
+        output="screen">
+    </node>
+</launch>
